@@ -1,8 +1,8 @@
-def factorial(n):
-	if n==0:
+def factorial(x):
+	if x==0:
 		return 1
 	else:
-		return n*factorial(n-1)
+		return x*factorial(x-1)
 number=s
 result=factorial(number)
 print(f"the factorial of {number} is {result}")
